@@ -29,13 +29,13 @@ module.exports = function(app) {
       // res.status(422).json(err.errors[0].message);
     });
   });
-//
+
   // Route for logging user out
   app.get("/logout", function(req, res) {
     req.logout();
     res.redirect("/");
   });
-//
+
   // Route for getting some data about our user to be used client side
   app.get("/api/user_data", function(req, res) {
     if (!req.user) {
