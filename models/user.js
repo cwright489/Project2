@@ -3,21 +3,21 @@ const bcrypt = require('bcryptjs');
 module.exports = function(sequelize, DataTypes) {
     var User = sequelize.define('User', {
       email: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: true,
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
       validate: {
         isEmail: true
       }
     },
       password: {
-      type: DataTypes.STRING,
-      allowNull: false
+        type: DataTypes.STRING,
+        allowNull: false
       }
     },{
       hooks: {
-      beforeCreate: function(user) {
-        user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
+        beforeCreate: function(user) {
+          user.password = bcrypt.hashSync(user.password, bcrypt.genSaltSync(10), null);
       }
     }
   })
