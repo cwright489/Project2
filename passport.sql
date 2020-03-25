@@ -9,5 +9,5 @@ to be able to use sql in the terminal.
 This will upload your sql code into mysql workbench and create the database needed
 for hosting the emails and hashed passwords for the customers accounts.
 */
-DROP DATABASE [IF EXISTS] passport_demo;
+DROP DATABASE IF EXISTS passport_demo;
 CREATE DATABASE passport_demo;
