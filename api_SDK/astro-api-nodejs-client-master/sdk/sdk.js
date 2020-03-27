@@ -2,8 +2,8 @@ var request = require('request');
 var http = require('http');
 
 var baseUrl = "http://api.vedicrishiastro.com/v1/";
-var userID =  "<your-user-id>";
-var apiKey = "<your-api-key>";
+var userID =  "612372";
+var apiKey = "bc9581589fbbafecd7a65a7d3cadabab";
 
 
 var getResponse = (resource, data, callback) => {
