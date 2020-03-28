@@ -2,3 +2,56 @@ form.signup,
 form.login {
   margin-top: 50px;
 }
+
+body {
+	background: url("../images/background/wolf.jpg");
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
+	font-family: 'Open Sans', sans-serif;
+	display: flex; 
+	/* min-height: 100vh; */
+   flex-direction: column; 
+} 
+
+.card-content {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:  bold;
+	font-size: 150%;
+
+}
+.card-action{
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight:  bold;
+	font-size: 150%;
+
+}
+ p {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight:  bold;
+	font-size: 200%;
+
+ }
+
+ h2 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight:  bold;
+	font-size: 180%;
+	text-align: center;
+
+
+ }
+  main {
+    flex: 1 0 auto;
+  } 
+
+/*-------------------------------------------FONTS---------------------------------------------*/
+@font-face {
+	font-family: 'audiowide-regular-webfont';
+	src: url('../fonts/audiowide-regular-webfont.eot');
+	src: url('../fonts/audiowide-regular-webfont.woff') format('woff'), url('../fonts/audiowide-regular-webfont.ttf') format('truetype'), url('../fonts/audiowide-regular-webfont.svg') format('svg');
+}
