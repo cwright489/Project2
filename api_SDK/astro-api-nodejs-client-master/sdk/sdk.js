@@ -89,6 +89,7 @@ var api = {
 	
 	call: (resource, date, month, year, hour, minute, latitude, longitude, timezone, callback) => {
 		var data = packageHoroData(date, month, year, hour, minute, latitude, longitude, timezone);
+		console.log(resource ,data, callback);
 		return getResponse(resource, data, callback);
 	},
 
