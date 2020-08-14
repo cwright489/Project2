@@ -15,12 +15,11 @@ We used HTML, CSS, Javascript, Node, MySQL, Sequelize, Lodash.js, Passport.js, a
 
 Installation
 
-This is only a website and does not need installation. it is currently hosted in github and you can access it at https://to be added/
+This is only a website and does not need installation. it is currently hosted in github and you can access it at https://cryptic-sea-06963.herokuapp.com/
 
 Usage
 
-
-
+The usage is easy and simple to follow once you are logged in.
 
 Authors
 
